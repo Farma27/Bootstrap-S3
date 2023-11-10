@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="exampleInput1">Email address</label>
+                <input type="email" placeholder="name@example.com" id="exampleInput1" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleSelect1">Example select</label>
+                <select id="exampleSelect1" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleSelext2">Example multiple selects</label>
+                <select multiple id="exapleSelect2" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleTextarea1">Example textarea</label>
+                <textarea id="exampleTextarea" rows="3" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFile1">Example file input</label>
+                <input type="file" id="exampleFile1" class="form-control-file">
+            </div>
+            <div class="form-group">
+                <label for="exampleRange1">Example Range input</label>
+                <input type="range" id="exampleRange1" class="form-control-range">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder=".form-control-lg" class="form-control form-control-lg">
+                <input type="text" placeholder="Default input" class="form-control">
+                <input type="text" placeholder=".form-control-sm" class="form-control form-control-sm">
+            </div>
+            <div class="form-group">
+                <select class="form-control form-control-lg">
+                    <option>Large select</option>
+                </select>
+                <select class="form-control">
+                    <option>Default select</option>
+                </select>
+                <select class="form-control form-control-sm">
+                    <option>Small select</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Readonly input here..." class="form-control" readonly>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" value="" id="defaultCheck1" class="form-check-input">
+                <label class="form-check-label" for="defaultCheck1">Default checkbox</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" value="" id="defaultCheck2" class="form-check-input" disabled>
+                <label class="form-check-label" for="defaultCheck2">disabled checkbox</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="exampleRadios" id="exampleRadio1" value="opt1" class="form-check-input" checked>
+                <label for="exampleRadio1" class="form-check-label">Default radio</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="exampleRadios" id="exampleRadio2" value="opt2" class="form-check-input">
+                <label for="exampleRadio2" class="form-check-label">Second default radio</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="exampleRadios" id="exampleRadio3" value="opt3" class="form-check-input" disabled>
+                <label for="exampleRadio3" class="form-check-label">Disabled radio</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" value="opt1" id="inlineCheckbox1" class="form-check-input">
+                <label for="inlineCheckbox1" class="form-check-label">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" value="opt2" id="inlineCheckbox2" class="form-check-input">
+                <label for="inlineCheckbox2" class="form-check-label">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" value="opt3" id="inlineCheckbox3" class="form-check-input" disabled>
+                <label for="inlineCheckbox3" class="form-check-label">3 (disabled)</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" name="inlineRadios" id="inlineRadio1" value="opt1" class="form-check-input">
+                <label for="inlineRadio1" class="form-check-label">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" name="inlineRadios" id="inlineRadio2" value="opt2" class="form-check-input">
+                <label for="inlineRadio2" class="form-check-label">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" name="inlineRadios" id="inlineRadio3" value="opt3" class="form-check-input" disabled>
+                <label for="inlineRadio3" class="form-check-label">3</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" value="opt1" aria-label="..." id="blankCheckbox" class="form-check-input position-static">
+            </div>
+            <div class="form-check">
+                <input type="radio" name="blankRadio" id="blankRadio1" value="opt1" aria-label="..." class="form-check position-static">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="First name" class="form-control">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Last name" class="form-control">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
